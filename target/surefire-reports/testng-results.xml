@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="BDD Test Suite" duration-ms="530" started-at="2019-01-17T22:01:13Z" finished-at="2019-01-17T22:01:13Z">
+  <suite name="BDD Test Suite" duration-ms="541" started-at="2019-01-17T22:04:24Z" finished-at="2019-01-17T22:04:25Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel01IT@c038203]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel02IT@6767c1fc]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel03IT@29ee9faa]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel04IT@cc285f4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel01IT@55f3ddb1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel02IT@c038203]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel03IT@cc285f4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel04IT@8bd1b6a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Cucumber" duration-ms="530" started-at="2019-01-17T22:01:13Z" finished-at="2019-01-17T22:01:13Z">
+    <test name="Cucumber" duration-ms="541" started-at="2019-01-17T22:04:24Z" finished-at="2019-01-17T22:04:25Z">
       <class name="uitest.generated.Parallel03IT">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel03IT@29ee9faa]" name="setUpClass" is-config="true" duration-ms="248" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel03IT@cc285f4]" name="setUpClass" is-config="true" duration-ms="271" started-at="2019-01-17T17:04:24Z" finished-at="2019-01-17T17:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel03IT@29ee9faa]" name="feature" duration-ms="155" started-at="2019-01-17T17:01:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel03IT@cc285f4]" name="feature" duration-ms="146" started-at="2019-01-17T17:04:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:04:25Z">
           <params>
             <param index="0">
               <value>
@@ -28,17 +28,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel03IT@29ee9faa]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel03IT@cc285f4]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2019-01-17T17:04:25Z" finished-at="2019-01-17T17:04:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- uitest.generated.Parallel03IT -->
       <class name="uitest.generated.Parallel04IT">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel04IT@cc285f4]" name="setUpClass" is-config="true" duration-ms="248" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel04IT@8bd1b6a]" name="setUpClass" is-config="true" duration-ms="269" started-at="2019-01-17T17:04:24Z" finished-at="2019-01-17T17:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel04IT@cc285f4]" name="feature" duration-ms="155" started-at="2019-01-17T17:01:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel04IT@8bd1b6a]" name="feature" duration-ms="146" started-at="2019-01-17T17:04:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:04:25Z">
           <params>
             <param index="0">
               <value>
@@ -49,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel04IT@cc285f4]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel04IT@8bd1b6a]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2019-01-17T17:04:25Z" finished-at="2019-01-17T17:04:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- uitest.generated.Parallel04IT -->
       <class name="uitest.generated.Parallel01IT">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel01IT@c038203]" name="setUpClass" is-config="true" duration-ms="250" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel01IT@55f3ddb1]" name="setUpClass" is-config="true" duration-ms="269" started-at="2019-01-17T17:04:24Z" finished-at="2019-01-17T17:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel01IT@c038203]" name="feature" duration-ms="155" started-at="2019-01-17T17:01:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel01IT@55f3ddb1]" name="feature" duration-ms="146" started-at="2019-01-17T17:04:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:04:25Z">
           <params>
             <param index="0">
               <value>
@@ -70,17 +70,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel01IT@c038203]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel01IT@55f3ddb1]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2019-01-17T17:04:25Z" finished-at="2019-01-17T17:04:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- uitest.generated.Parallel01IT -->
       <class name="uitest.generated.Parallel02IT">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel02IT@6767c1fc]" name="setUpClass" is-config="true" duration-ms="248" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:uitest.generated.Parallel02IT@c038203]" name="setUpClass" is-config="true" duration-ms="270" started-at="2019-01-17T17:04:24Z" finished-at="2019-01-17T17:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel02IT@6767c1fc]" name="feature" duration-ms="155" started-at="2019-01-17T17:01:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:uitest.generated.Parallel02IT@c038203]" name="feature" duration-ms="146" started-at="2019-01-17T17:04:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-17T17:04:25Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel02IT@6767c1fc]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2019-01-17T17:01:13Z" finished-at="2019-01-17T17:01:13Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:uitest.generated.Parallel02IT@c038203]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2019-01-17T17:04:25Z" finished-at="2019-01-17T17:04:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
