@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "second feature",
+        "description": "",
+        "id": "my-seond-feature;second-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137784517,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a precondition",
+            "match": {
+              "location": "SimpleStep.a_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26671,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an action takes place",
+            "match": {
+              "location": "SimpleStep.an_action_takes_place()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20686,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the expected behavior is displayed",
+            "match": {
+              "location": "SimpleStep.the_expected_behavior_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "my seond feature",
+    "description": "",
+    "id": "my-seond-feature",
+    "keyword": "Feature",
+    "uri": "/Users/gregory/Documents/2019/git/selenium/target/classes/customers/simple2.feature"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "number smoke",
+        "description": "",
+        "id": "my-smoke;number-smoke",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137782819,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a precondition",
+            "match": {
+              "location": "SimpleStep.a_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27104,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an action takes place",
+            "match": {
+              "location": "SimpleStep.an_action_takes_place()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the expected behavior is displayed",
+            "match": {
+              "location": "SimpleStep.the_expected_behavior_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@DEV"
+          }
+        ]
+      }
+    ],
+    "name": "my smoke",
+    "description": "",
+    "id": "my-smoke",
+    "keyword": "Feature",
+    "uri": "/Users/gregory/Documents/2019/git/selenium/target/classes/smoke/smokea.feature"
+  }
+]
